@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.one {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.two {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.three {
+    font-family: 'Arial', sans-serif;
+    background-color: #866b6b2f;
+    color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.social-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-links a {
+    color: #f8f8f8;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.one h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.one p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.signup-button {
+    background-color: blue;
+    color: #f8f8f8;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.signup-button:hover {
+    background-color: darkblue;
+}
+.shoes-image {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-info {
+    font-family: 'Arial', sans-serif;
+    background-color: skyblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+.signup-button {
+    background-color: blue;
+    color: #f8f8f8;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+.signup-button:hover {
+    background-color: darkblue;
+}
+.shoe-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+footer {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    height: 5px;
+}
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+}
+.shoes-image-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
